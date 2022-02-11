@@ -48,7 +48,7 @@ class MainGPU : AppCompatActivity() {
 
             Picasso.get()
                 .load(gpu.image)
-                .into(binding.gpuImage)
+//                .into(binding.gpuImage)
 
             if (gpu.image != Uri.EMPTY) {
                 binding.chooseImage.setText(R.string.change_gpu_image)
@@ -157,7 +157,7 @@ class MainGPU : AppCompatActivity() {
                             gpu.image = result.data!!.data!!
                             Picasso.get()
                                 .load(gpu.image)
-                                .into(binding.gpuImage)
+//                                .into(binding.gpuImage)
                             binding.chooseImage.setText(R.string.change_gpu_image)
                         } //
                     }

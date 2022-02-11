@@ -68,12 +68,6 @@
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="14sp" />
 
-                <ImageView
-                    android:id="@+id/gpuImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@mipmap/ic_launcher" />
-
                 <Button
                     android:id="@+id/gpuLocation"
                     android:layout_width="match_parent"
